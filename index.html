@@ -1,204 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ReactJS Beginner Projects - Coming Soon</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, sans-serif;
-      min-height: 100vh;
-      background: linear-gradient(to bottom right, #1e3a8a, #581c87, #831843);
-      color: white;
-      line-height: 1.5;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 4rem 1rem;
-    }
-    .content {
-      max-width: 64rem;
-      margin: 0 auto;
-      text-align: center;
-    }
-    .header {
-      margin-bottom: 2rem;
-    }
-    .title {
-      font-size: 3.5rem;
-      font-weight: bold;
-      background: linear-gradient(to right, #facc15, #f97316);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin: 0.5rem 0;
-    }
-    .card {
-      background: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(12px);
-      border-radius: 1rem;
-      padding: 2rem;
-      margin-bottom: 2rem;
-    }
-    .subtitle {
-      font-size: 1.875rem;
-      font-weight: 600;
-      margin-bottom: 1rem;
-    }
-    .description {
-      color: #e5e7eb;
-      font-size: 1.125rem;
-      margin-bottom: 2rem;
-    }
-    .timer {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-bottom: 2rem;
-    }
-    .timer-item {
-      text-align: center;
-    }
-    .timer-value {
-      font-size: 2.25rem;
-      font-weight: bold;
-    }
-    .timer-label {
-      color: #d1d5db;
-      font-size: 0.875rem;
-    }
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-      text-align: left;
-    }
-    .feature {
-      display: flex;
-      gap: 1rem;
-      padding: 1rem;
-    }
-    .feature-content h3 {
-      margin: 0 0 0.5rem 0;
-      font-weight: 600;
-    }
-    .feature-content p {
-      color: #d1d5db;
-      margin: 0;
-    }
-    .signup {
-      max-width: 28rem;
-      margin: 0 auto;
-    }
-    .input-group {
-      display: flex;
-      gap: 0.5rem;
-    }
-    input {
-      flex: 1;
-      padding: 0.5rem 1rem;
-      border-radius: 0.5rem;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      background: rgba(255, 255, 255, 0.2);
-      color: white;
-    }
-    button {
-      padding: 0.5rem 1.5rem;
-      background: #facc15;
-      color: #1a1a1a;
-      border: none;
-      border-radius: 0.5rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background-color 0.2s;
-    }
-    button:hover {
-      background: #fbbf24;
-    }
-    .footer {
-      text-align: center;
-    }
-    .footer a {
-      color: #d1d5db;
-      text-decoration: none;
-      transition: color 0.2s;
-    }
-    .footer a:hover {
-      color: #facc15;
-    }
-    @media (max-width: 640px) {
-      .title {
-        font-size: 2.5rem;
-      }
-      .timer {
-        gap: 1rem;
-      }
-      .timer-value {
-        font-size: 1.875rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="content">
-      <div class="header">
-        <h1 class="title">Under Construction</h1>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReactJS Beginner Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/img/site.webmanifest" />
+  </head>
+  <body>
+    <div class="min-h-screen bg-gray-50">
+      <!-- Header -->
+      <header class="bg-white shadow-sm">
+        <nav
+          class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between"
+        >
+          <div class="flex items-center gap-2 text-xl font-bold text-gray-900">
+            <i data-lucide="code-2" class="text-purple-600"></i>
+            ReactJS Beginner Projects
+          </div>
+        </nav>
+      </header>
 
-      <div class="card">
-        <h2 class="subtitle">ReactJS Beginner Projects</h2>
-        <p class="description">
-          We're building something amazing! A comprehensive collection of React projects 
-          designed to help beginners master React development through hands-on experience.
-        </p>
-
-        <div class="timer">
-          <div class="timer-item">
-            <div class="timer-value">30</div>
-            <div class="timer-label">Days</div>
-          </div>
-          <div class="timer-item">
-            <div class="timer-value">12</div>
-            <div class="timer-label">Hours</div>
-          </div>
-          <div class="timer-item">
-            <div class="timer-value">45</div>
-            <div class="timer-label">Minutes</div>
-          </div>
-        </div>
-
-        <div class="features">
-          <div class="feature">
-            <div class="feature-content">
-              <h3>Practical Projects</h3>
-              <p>Learn by building real-world applications with increasing complexity</p>
-            </div>
-          </div>
-          <div class="feature">
-            <div class="feature-content">
-              <h3>Step-by-Step Tutorials</h3>
-              <p>Detailed guides and explanations for every project</p>
+      <main>
+        <!-- Hero -->
+        <div
+          class="bg-gradient-to-br from-purple-600 to-indigo-700 text-white py-24"
+        >
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+              <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Learn React.js Through<br />
+                Hands-on Projects
+              </h1>
+              <p
+                class="text-xl md:text-2xl text-purple-100 mb-12 max-w-3xl mx-auto"
+              >
+                Start your journey with carefully curated beginner-friendly
+                projects. Build real-world applications and master React.js
+                fundamentals.
+              </p>
             </div>
           </div>
         </div>
 
-        <div class="signup">
-          <div class="input-group">
-            <input type="email" placeholder="Enter your email for updates">
-            <button>Notify Me</button>
+        <!-- Projects -->
+        <section
+          id="projects"
+          class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+        >
+          <h2 class="text-3xl font-bold text-gray-900 mb-8">
+            Featured Projects
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Todo List App -->
+            <div
+              class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-[1.02]"
+            >
+              <div class="p-6">
+                <div class="flex justify-between items-start mb-4">
+                  <h3 class="text-xl font-bold text-gray-900">Todo List App</h3>
+                  <span
+                    class="px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800"
+                    >Beginner</span
+                  >
+                </div>
+                <p class="text-gray-600 mb-6">
+                  Build a classic todo list application with CRUD operations,
+                  local storage, and filtering capabilities.
+                </p>
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
+                  >
+                    <i
+                      data-lucide="external-link"
+                      class="w-[18px] h-[18px]"
+                    ></i>
+                    Live Demo
+                  </a>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
+                  >
+                    <i data-lucide="github" class="w-[18px] h-[18px]"></i>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Weather Dashboard -->
+            <div
+              class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-[1.02]"
+            >
+              <div class="p-6">
+                <div class="flex justify-between items-start mb-4">
+                  <h3 class="text-xl font-bold text-gray-900">
+                    Weather Dashboard
+                  </h3>
+                  <span
+                    class="px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800"
+                    >Beginner</span
+                  >
+                </div>
+                <p class="text-gray-600 mb-6">
+                  Create a weather dashboard that fetches real-time weather data
+                  from an API and displays it beautifully.
+                </p>
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
+                  >
+                    <i
+                      data-lucide="external-link"
+                      class="w-[18px] h-[18px]"
+                    ></i>
+                    Live Demo
+                  </a>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
+                  >
+                    <i data-lucide="github" class="w-[18px] h-[18px]"></i>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recipe Finder -->
+            <div
+              class="bg-white rounded-xl shadow-lg overflow-hidden transition-transform hover:scale-[1.02]"
+            >
+              <div class="p-6">
+                <div class="flex justify-between items-start mb-4">
+                  <h3 class="text-xl font-bold text-gray-900">Recipe Finder</h3>
+                  <span
+                    class="px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800"
+                    >Intermediate</span
+                  >
+                </div>
+                <p class="text-gray-600 mb-6">
+                  Develop a recipe search application with filtering, favorites,
+                  and detailed recipe instructions.
+                </p>
+                <div class="flex gap-4">
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
+                  >
+                    <i
+                      data-lucide="external-link"
+                      class="w-[18px] h-[18px]"
+                    ></i>
+                    Live Demo
+                  </a>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-gray-700 hover:text-gray-900 transition-colors"
+                  >
+                    <i data-lucide="github" class="w-[18px] h-[18px]"></i>
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Features -->
+        <section class="bg-white py-24">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">
+              Why Learn With Us?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+              <!-- Structured Learning -->
+              <div class="text-center">
+                <div
+                  class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6"
+                >
+                  <i data-lucide="code-2" class="text-purple-600 w-8 h-8"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Structured Learning</h3>
+                <p class="text-gray-600">
+                  Progress through carefully designed projects that build upon
+                  each other.
+                </p>
+              </div>
+
+              <!-- Real-World Projects -->
+              <div class="text-center">
+                <div
+                  class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6"
+                >
+                  <i data-lucide="rocket" class="text-purple-600 w-8 h-8"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Real-World Projects</h3>
+                <p class="text-gray-600">
+                  Build projects that you can add to your portfolio and showcase
+                  to employers.
+                </p>
+              </div>
+
+              <!-- Active Community -->
+              <div class="text-center">
+                <div
+                  class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6"
+                >
+                  <i data-lucide="users" class="text-purple-600 w-8 h-8"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-4">Active Community</h3>
+                <p class="text-gray-600">
+                  Join a community of learners and get help when you need it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+              <h3 class="text-lg font-semibold mb-4">
+                ReactJS Beginner Projects
+              </h3>
+              <p class="text-gray-400">
+                Learn React.js through hands-on project-based tutorials.
+              </p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+              <ul class="space-y-2">
+                <li>
+                  <a href="#projects" class="text-gray-400 hover:text-white"
+                    >Projects</a
+                  >
+                </li>
+                <li>
+                  <a href="#resources" class="text-gray-400 hover:text-white"
+                    >Resources</a
+                  >
+                </li>
+                <li>
+                  <a href="#community" class="text-gray-400 hover:text-white"
+                    >Community</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold mb-4">Connect With Us</h3>
+              <div class="flex gap-4">
+                <a href="#" class="text-gray-400 hover:text-white">
+                  <i data-lucide="github" class="w-6 h-6"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400"
+          >
+            <p>
+              &copy;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              ReactJS Beginner Projects. All rights reserved.
+            </p>
           </div>
         </div>
-      </div>
-
-      <div class="footer">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-          Follow our progress on GitHub
-        </a>
-      </div>
+      </footer>
     </div>
-  </div>
-</body>
+
+    <script>
+      lucide.createIcons()
+    </script>
+  </body>
 </html>
